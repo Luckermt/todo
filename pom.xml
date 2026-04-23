@@ -100,7 +100,8 @@
 				<configuration>
 					<configLocation>src/main/resources/checkstyle-google.xml</configLocation>
 					<consoleOutput>true</consoleOutput>
-					<failsOnError>false</failsOnError>
+					<failsOnError>true</failsOnError>
+					<violationSeverity>warning</violationSeverity>
 				</configuration>
 				<executions>
 					<execution>

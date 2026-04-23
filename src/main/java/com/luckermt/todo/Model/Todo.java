@@ -21,7 +21,7 @@ public static final int maxSize = 100;
 	private String title;
 
 	private String description;
-
+	
 	private boolean completed;
 
 	@Enumerated(EnumType.STRING)
@@ -43,7 +43,7 @@ public static final int maxSize = 100;
 	public Long getId() {
 		return id;
 	}
-
+	public void doSomething( String param ){}  // пробел после '(' и перед ')'
 	public void setId(Long id) {
 		this.id = id;
 	}
