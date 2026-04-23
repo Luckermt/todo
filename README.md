@@ -1,22 +1,7 @@
 # Todo REST API
 
-Простое приложение для управления задачами, реализованное на Spring Boot с REST API и хранением в H2 (в памяти).  
+Простое приложение для управления задачами, реализованное на Spring Boot с REST API и хранением в postgresql.  
 Поддерживает создание, просмотр, обновление и удаление задач, а также сортировку по приоритету и дедлайну.
-
----
-
-## 📋 Содержание
-
-- [Требования](#требования)
-- [Локальный запуск](#локальный-запуск)
-- [Запуск через Docker](#запуск-через-docker)
-- [API Endpoints](#api-endpoints)
-- [Тестирование и покрытие кода](#тестирование-и-покрытие-кода)
-- [Линтинг (Checkstyle)](#линтинг-checkstyle)
-- [CI/CD Pipeline](#cicd-pipeline)
-- [Структура проекта](#структура-проекта)
-
----
 
 ## 🔧 Требования
 
@@ -28,7 +13,7 @@
 ## 💻 Локальный запуск
 
 1. **Клонируйте репозиторий**
-   git clone https://github.com/your-username/todo-app.git
+   git clone https://github.com/luckermt/todo-app.git
    cd todo-app
 
 2. **Соберите проект и запустите тесты**
@@ -196,7 +181,7 @@ docker_build	Сборка Docker-образа и публикация в Docker 
 
     DOCKER_USERNAME – имя пользователя Docker Hub
 
-    DOCKER_PASSWORD – пароль или Access Token (рекомендуется)
+    DOCKER_PASSWORD – Access Token
 
 **Тегирование Docker-образа**
 
