@@ -39,7 +39,8 @@ public class TodoController {
 		Todo saved = todoService.createTodo(todo);
 		return new ResponseEntity<>(saved, HttpStatus.CREATED);
 	}
-
+public void someMethodWithAVeryLongNameThatExceedsTheLimitAndShouldTriggerAViolationOfTheLineLengthRule() {
+}
 	@PutMapping("/{id}")
 	public ResponseEntity<Todo> updateTodo(@PathVariable Long id, @RequestBody Todo todo) {
 		try {
