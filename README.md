@@ -178,8 +178,6 @@ docker_build	Сборка Docker-образа и публикация в Docker 
 
 **Переменные окружения**
 
-Для публикации образа в Docker Hub необходимо добавить в настройки репозитория секреты:
-
     DOCKER_USERNAME – имя пользователя Docker Hub
 
     DOCKER_PASSWORD – Access Token
