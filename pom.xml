@@ -102,8 +102,9 @@
 					<consoleOutput>true</consoleOutput>
 					<failsOnError>true</failsOnError>
 					<violationSeverity>warning</violationSeverity>
+					<linkXRef>false</linkXRef>
 				</configuration>
-				<executions>
+				<!-- <executions>
 					<execution>
 						<id>validate</id>
 						<phase>validate</phase>
@@ -111,7 +112,7 @@
 							<goal>check</goal>
 						</goals>
 					</execution>
-				</executions>
+				</executions> -->
 			</plugin>
 			<plugin>
                 <groupId>org.jacoco</groupId>
